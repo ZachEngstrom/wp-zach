@@ -1,0 +1,25 @@
+<div class="right-rail">
+	<?php
+		if(is_active_sidebar('right-rail-how-do-i')){
+			dynamic_sidebar('right-rail-how-do-i');
+		}
+		if(is_active_sidebar('right-rail-info')){
+			dynamic_sidebar('right-rail-info');
+		}
+		if(is_active_sidebar('right-rail-promo')){
+			dynamic_sidebar('right-rail-promo');
+		}
+		if(is_active_sidebar('right-rail-image')){
+			dynamic_sidebar('right-rail-image');
+		}
+		if(is_active_sidebar('right-rail-video')){
+			dynamic_sidebar('right-rail-video');
+		}
+		if(is_active_sidebar('right-rail-rte')){
+			dynamic_sidebar('right-rail-rte');
+		}
+		if(is_active_sidebar('right-rail-callout')){
+			dynamic_sidebar('right-rail-callout');
+		}
+	?>
+</div>
