@@ -1,0 +1,73 @@
+/**
+ * Right Rail
+ */
+.right-rail {
+	padding-left: 50px;
+	h3 {
+		margin-top:0;
+	}
+	ul {
+		li {
+			&:before {
+				content: "\f059" !important;
+			}
+		}
+	}
+	aside{
+		margin-bottom:2rem;
+		&:not(.right-rail-image):not(.right-rail-video):not(.right-rail-rte) {
+			padding: 25px 20px 10px;
+		}
+		img {
+			max-width: 100%;
+			height:auto;
+		}
+	}
+	.right-rail-how-do-i {
+		background-color: #D8EDF7;
+	}
+	.right-rail-info {
+		background-color: #f1efe0;
+	}
+	.right-rail-promo {
+		background-color: #ebebeb;
+	}	
+	.right-rail-video {
+		background-color: #ebebeb;
+		padding-bottom:10px;
+		.textwidget {
+			> * {
+				padding-left:20px;
+				padding-right:20px;
+			}
+			video ~ p, .embed-container ~ p {
+				margin-top:10px;
+			}
+			> p {
+				> video {
+					margin-left:-20px;
+				}
+			}
+		}
+	}
+	.right-rail-rte {
+		background-color: #ebebeb;
+	}
+	/**
+	 * From http://embedresponsively.com/
+	 **/
+	.embed-container { 
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		iframe, object, embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%; 
+			height: 100%;
+		}
+	}
+} 

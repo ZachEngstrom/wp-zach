@@ -1,0 +1,14 @@
+// Mixin for bullet-proof font declaration..
+@mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('../../assets/fonts/#{$font-filename}.eot');
+    src: url('../../assets/fonts/#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+      url('../../assets/fonts/#{$font-filename}.woff') format('woff'),
+      url('../../assets/fonts/#{$font-filename}.ttf') format('truetype'),
+      url('../../assets/fonts/#{$font-filename}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}

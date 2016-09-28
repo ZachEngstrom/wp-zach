@@ -1,0 +1,63 @@
+/**
+ * Footer
+ **/
+footer {
+	border-top: 3px solid $bc_blue;
+	font-family: "univers-45-Light";
+	padding: 2rem 0;
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	.menu-footer-primary, .menu-footer-secondary {
+		ul {
+			margin-left:0;
+			li {
+				padding:0;
+				&:before {
+					content: '|';
+					padding:0 1.9rem 0 1.5rem;
+				}
+				&:first-child {
+					&:before {
+					display:none;
+					}
+				}
+				a {
+					color:#333;
+				}
+			}
+		}
+	}
+	.menu-footer-secondary {
+		font-size:1.2rem;
+		margin-top:-1px;
+		ul {
+			li {
+				&:before {
+					padding:0 0.90rem 0 0.65rem;
+					font-size: 1.4rem;
+				}
+			}
+		}
+	}
+	.footer-icons {
+		li {
+			padding: 0 0 0 40px;
+			a {
+				color:#666;
+				&:hover {
+					color:#333;
+				}
+			}
+		}
+	}
+	.copyright {
+		padding-top:34px;
+		p {
+			font-size: 12px;
+			&:first-child {
+				margin-bottom:0;
+			}
+		}
+	}
+}

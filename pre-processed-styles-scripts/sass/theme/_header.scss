@@ -1,0 +1,138 @@
+/**
+ * Header
+ **/
+.header {
+	padding-top: 5px;
+	.logo {
+		margin: 15px 0 18px;
+		float: left;
+		a {
+			display: block;
+		}
+	}
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: rgba(0,0,0,0);
+    border-color: #09c;
+}
+
+nav.primary-nav {
+	div.navbar {
+		margin-bottom:0;
+		min-height: 1px;
+		float:left;
+		ul.nav {
+			> li.dropdown {
+				position: static;
+				margin-left:0;
+				&:first-child {
+					a {
+						padding: 11px 15px 14px 14px;
+					}
+					&:before {
+						border: 0;
+					}
+				}
+				&:before {
+					content: '';
+					border-left: 1px solid #E2E1DD;
+					height: 50%;
+					position: absolute;
+					top: 25%;
+				}
+				a {
+					padding: 11px 15px 14px;
+					font-family: "univers-57-Condensed";
+					font-size: 1.8rem;
+					&:hover, &:focus {
+						background-color: rgba(0,0,0,0);
+						color: $link_blue;
+					}
+					i {
+						position: absolute;
+						bottom: -10px;
+						left: 50%;
+						margin-left: -10px;
+						color: #fff;
+						font-size: 4.2rem;
+						line-height: .4;
+						text-shadow: none;
+						z-index: 10;
+					}
+				}
+				ul.dropdown-menu {
+					border:0;
+					background: #005172;
+					background: rgba(0, 81, 114, 0.95);
+					border-radius:0;
+					min-height: 256px;
+					box-shadow: inset 0 6px 12px rgba(0,0,0,0.175),0 6px 12px rgba(0,0,0,0.175);
+					z-index: 5;
+					> div {
+						padding-top:30px;
+						> li {
+							a {
+								color: #fff;
+								padding: 13px 10px 8px;
+								display:block;
+								font-size: 1.8rem;
+								font-family: "univers-57-Condensed";
+								border-bottom: 1px solid #8FCAE7;
+								&:hover, &:focus {
+									background: #06779F;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+form.header-search {
+	float:right;
+	padding-top:4px;
+	padding-bottom:9px;
+	max-width:201px;
+	.form-control {
+		float:right;
+		background: #E2E1DD;
+		border:none;
+		color: #666;
+	}
+	button {
+		float:right;
+		margin-top: -34px;
+		border:none;
+		background: rgba (0,0,0,0);	
+		i {
+			color: #666;
+		}
+		&:hover {
+			background: rgba (0,0,0,0);			
+		}
+	}
+}
+
+nav.macro-nav {
+	padding-right:1px;
+	li {
+		color: #666;
+		a {
+			display: inline-block;
+			padding: 8px 13px;
+			font-family: "univers-57-Condensed";
+			color: #666;
+			&:hover {
+				text-decoration: underline;
+				background: none;
+			}
+			i {
+				padding-left: 5px;
+				vertical-align: 0;
+				width: 15px;
+			}
+		}
+	}
+} 

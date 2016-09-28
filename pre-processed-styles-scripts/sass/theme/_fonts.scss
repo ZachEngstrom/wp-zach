@@ -1,0 +1,13 @@
+/**
+ * Font Declarations
+ */
+@include declare-font-face('Glyphicons Halflings','glyphicons-halflings-regular');
+@include declare-font-face('FontAwesome','fontawesome-webfont');
+@include declare-font-face('univers-45-Light','universltstd-light');
+@include declare-font-face('univers-45-Bold','universltstd-bold', 700);
+@include declare-font-face('univers-65-Bold','universltstd-bold');
+@include declare-font-face('univers-47-LightCondensed','universltstd-lightcn');
+@include declare-font-face('univers-47-BoldCondensed','universltstd-boldcn', 700);
+@include declare-font-face('univers-57-Condensed','universltstd-cn');
+@include declare-font-face('univers-57-BoldCondensed','universltstd-boldcn', 700);
+@include declare-font-face('univers-67-BoldCondensed','universltstd-boldcn');
