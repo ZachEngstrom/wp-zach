@@ -43,7 +43,7 @@ nav.primary-nav {
 				}
 				a {
 					padding: 11px 15px 14px;
-					font-family: "univers-57-Condensed";
+					font-family: sans-serif;
 					font-size: 1.8rem;
 					&:hover, &:focus {
 						background-color: rgba(0,0,0,0);
@@ -77,7 +77,7 @@ nav.primary-nav {
 								padding: 13px 10px 8px;
 								display:block;
 								font-size: 1.8rem;
-								font-family: "univers-57-Condensed";
+								font-family: sans-serif;
 								border-bottom: 1px solid #8FCAE7;
 								&:hover, &:focus {
 									background: #06779F;
@@ -122,7 +122,7 @@ nav.macro-nav {
 		a {
 			display: inline-block;
 			padding: 8px 13px;
-			font-family: "univers-57-Condensed";
+			font-family: sans-serif;
 			color: #666;
 			&:hover {
 				text-decoration: underline;
