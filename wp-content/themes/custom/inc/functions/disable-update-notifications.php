@@ -4,7 +4,7 @@
  * Disable Notifications if not Super Admin
  */
 
-if (!is_super_admin()) {
+if (!current_user_can('administrator')) {
 
 	/*
 	 * Disable Update WordPress Notifications
