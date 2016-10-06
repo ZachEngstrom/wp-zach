@@ -7,7 +7,7 @@
  */
 function fileVersion($ver) {
 	date_default_timezone_set('America/Chicago');
-	$themePath = './wp-content/themes/BCBSMN';
+	$themePath = './wp-content/themes/custom';
 	return date("Y.m.d.Hi", filemtime($themePath . $ver));
 }
 

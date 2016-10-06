@@ -18,14 +18,14 @@ get_header(); ?>
 							<div class="col-sm-9">
 								<form role="search" method="get" id="searchform" class="form-inline searchform search-page-search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 									<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s" class="form-control" placeholder="Site Search">
-									<button type="submit" id="searchsubmit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'BCBSMN' ); ?>" class="btn btn-primary btn-call-to-action">Search</button>
+									<button type="submit" id="searchsubmit" value="<?php echo esc_attr_x( 'Search', 'submit button', 'Custom' ); ?>" class="btn btn-primary btn-call-to-action">Search</button>
 								</form>
 							</div>
 						</div>
 						<hr class="hidden-xs">
 						<div id="search-results-list" class="col-md-9 col-sm-12 col-xs-12">
 						<?php if ( have_posts() ) : ?>
-							<h2 class="page-title"><?php printf( __( 'Results for <em>%s</em>', 'BCBSMN' ), get_search_query() ); ?></h2>
+							<h2 class="page-title"><?php printf( __( 'Results for <em>%s</em>', 'Custom' ), get_search_query() ); ?></h2>
 							<p class="lead">Found <strong><?php echo $total_results; ?></strong> matches</p>
 							<ul class="list-unstyled main-results-without-dn clearfix">
 							<?php

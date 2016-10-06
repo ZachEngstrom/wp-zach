@@ -2,17 +2,17 @@
 /**
  * Register Navigation Menus
  */
-function bcbsmn_nav_menus() {
+function Custom_nav_menus() {
 	$locations = array(
-		'header-primary'   => __('Header Primary',   'BCBSMN'),
-		'header-secondary' => __('Header Secondary', 'BCBSMN'),
-		'footer-primary'   => __('Footer Primary',   'BCBSMN'),
-		'footer-secondary' => __('Footer Secondary', 'BCBSMN'),
-		'footer-social'    => __('Footer Social',    'BCBSMN'),
+		'header-primary'   => __('Header Primary',   'Custom'),
+		'header-secondary' => __('Header Secondary', 'Custom'),
+		'footer-primary'   => __('Footer Primary',   'Custom'),
+		'footer-secondary' => __('Footer Secondary', 'Custom'),
+		'footer-social'    => __('Footer Social',    'Custom'),
 	);
 	register_nav_menus($locations);
 }
-add_action('init','bcbsmn_nav_menus');
+add_action('init','Custom_nav_menus');
 
 /**
  * Custom Menu in Header Primary parameters
