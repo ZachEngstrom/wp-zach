@@ -1,6 +1,6 @@
 <?php
 /**
- * Widgets
+ * Widgets - https://codex.wordpress.org/Widgetizing_Themes
  */
 function widgets_init() {
 	// Right Rail: How Do I

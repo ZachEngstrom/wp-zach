@@ -17,5 +17,5 @@ require get_template_directory() . '/inc/functions/pagination.php';
 //require get_template_directory() . '/inc/functions/require-plugins.php';
 require get_template_directory() . '/inc/functions/scripts.php';
 require get_template_directory() . '/inc/functions/styles.php';
-require get_template_directory() . '/inc/functions/widgets.php';
+//require get_template_directory() . '/inc/functions/widgets.php';
 require get_template_directory() . '/inc/functions/wysiwyg.php';
