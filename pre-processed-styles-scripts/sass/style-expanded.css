@@ -9803,6 +9803,7 @@ button.close {
  **/
 .header {
   padding-top: 5px;
+  border-bottom: 3px solid gray;
 }
 .header .logo {
   margin: 15px 0 18px;
@@ -9810,6 +9811,10 @@ button.close {
 }
 .header .logo a {
   display: block;
+}
+.header .logo a img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
@@ -10095,7 +10100,6 @@ h6, .h6 {
  */
 section, .section {
   padding-bottom: 4rem;
-  background: url("../../assets/img/bg_content-top.gif") left top repeat-x;
 }
 section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination), .section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination) {
   padding-left: 0;
@@ -10339,6 +10343,7 @@ footer .footer-icons li a:hover {
 }
 footer .copyright {
   padding-top: 34px;
+  text-align: center;
 }
 footer .copyright p {
   font-size: 12px;
