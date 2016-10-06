@@ -26,7 +26,7 @@ gulp.task('styles', function() {
         includeContent: false,
         sourceRoot: 'sass'
     }))
-   .pipe(gulp.dest('wp-content/themes/BCBSMN/assets/css')); // ouputs style.min.css
+   .pipe(gulp.dest('wp-content/themes/custom/assets/css')); // ouputs style.min.css
 });
 
 gulp.task('scripts', function(){
@@ -37,7 +37,7 @@ gulp.task('scripts', function(){
     ])
     .pipe(concat('scripts.min.js')) // concatenates the JS files listed above into one file called scripts.min.js
     .pipe(uglify()) // minifies scripts.min.js
-    .pipe(gulp.dest('wp-content/themes/BCBSMN/assets/js')); // outputs scripts.min.js
+    .pipe(gulp.dest('wp-content/themes/custom/assets/js')); // outputs scripts.min.js
 });
 
 gulp.task('watch', function() {  
