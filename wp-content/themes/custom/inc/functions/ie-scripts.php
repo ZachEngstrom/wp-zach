@@ -2,7 +2,7 @@
 
 function add_ie_html5_shim () {
 	$ie_scripts = array(
-	    'html5shiv' => array('/assets/js/lib/html5shiv.min.js' => '3.7.2'),
+	    'html5shiv' => array('/assets/js/lib/html5shiv.min.js' => '3.7.3'),
 	    'respond'   => array('/assets/js/lib/respond.min.js'   => '1.4.2')
 	);
 	echo "<!--[if lt IE 9]>\n";
