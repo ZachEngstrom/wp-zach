@@ -2,3 +2,5 @@
  * Lib Overwrites - Overwrite Library CSS Styles (Font paths, Image paths, etc...)
  */
  
+@include declare-font-face('Glyphicons Halflings','glyphicons-halflings-regular');
+@include declare-font-face('FontAwesome','fontawesome-webfont');

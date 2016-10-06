@@ -1,21 +1,10 @@
 /*
-Theme Name: BCBSMN Lite
-Theme URI: https://www.bluecrossmn.com/
-Author: Blue Cross and Blue Shield of Minnesota
-Author URI: https://www.bluecrossmn.com/
-Version: 1.0.0
-License: MIT
-License URI: http://mit-license.org/
-*/
-
-/*
  *
  * Bootstrap & Font-Awesome
  *
  */
 @import 'lib/bootstrap';
 @import 'lib/font-awesome';
-@import 'base/lib-overwrites'; 
 
 /*!
  *
@@ -24,6 +13,7 @@ License URI: http://mit-license.org/
  */
 @import 'base/mixins';
 @import 'base/variables';
+@import 'base/lib-overwrites';
 @import 'theme/fonts';
 @import 'theme/header';
 @import 'theme/body';

@@ -1,13 +1,4 @@
 /*
-Theme Name: BCBSMN Lite
-Theme URI: https://www.bluecrossmn.com/
-Author: Blue Cross and Blue Shield of Minnesota
-Author URI: https://www.bluecrossmn.com/
-Version: 1.0.0
-License: MIT
-License URI: http://mit-license.org/
-*/
-/*
  *
  * Bootstrap & Font-Awesome
  *
@@ -9774,9 +9765,6 @@ button.close {
   clip: auto;
 }
 
-/**
- * Lib Overwrites - Overwrite Library CSS Styles (Font paths, Image paths, etc...)
- */
 /*!
  *
  * Theme
@@ -9789,7 +9777,7 @@ button.close {
 * Colors
 */
 /**
- * Font Declarations
+ * Lib Overwrites - Overwrite Library CSS Styles (Font paths, Image paths, etc...)
  */
 @font-face {
   font-family: "Glyphicons Halflings";
@@ -9807,70 +9795,9 @@ button.close {
   font-style: normal;
   font-stretch: normal;
 }
-@font-face {
-  font-family: "univers-45-Light";
-  src: url("../../assets/fonts/universltstd-light.eot");
-  src: url("../../assets/fonts/universltstd-light.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-light.woff") format("woff"), url("../../assets/fonts/universltstd-light.ttf") format("truetype"), url("../../assets/fonts/universltstd-light.svg#univers-45-Light") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-45-Bold";
-  src: url("../../assets/fonts/universltstd-bold.eot");
-  src: url("../../assets/fonts/universltstd-bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-bold.woff") format("woff"), url("../../assets/fonts/universltstd-bold.ttf") format("truetype"), url("../../assets/fonts/universltstd-bold.svg#univers-45-Bold") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-65-Bold";
-  src: url("../../assets/fonts/universltstd-bold.eot");
-  src: url("../../assets/fonts/universltstd-bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-bold.woff") format("woff"), url("../../assets/fonts/universltstd-bold.ttf") format("truetype"), url("../../assets/fonts/universltstd-bold.svg#univers-65-Bold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-47-LightCondensed";
-  src: url("../../assets/fonts/universltstd-lightcn.eot");
-  src: url("../../assets/fonts/universltstd-lightcn.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-lightcn.woff") format("woff"), url("../../assets/fonts/universltstd-lightcn.ttf") format("truetype"), url("../../assets/fonts/universltstd-lightcn.svg#univers-47-LightCondensed") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-47-BoldCondensed";
-  src: url("../../assets/fonts/universltstd-boldcn.eot");
-  src: url("../../assets/fonts/universltstd-boldcn.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-boldcn.woff") format("woff"), url("../../assets/fonts/universltstd-boldcn.ttf") format("truetype"), url("../../assets/fonts/universltstd-boldcn.svg#univers-47-BoldCondensed") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-57-Condensed";
-  src: url("../../assets/fonts/universltstd-cn.eot");
-  src: url("../../assets/fonts/universltstd-cn.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-cn.woff") format("woff"), url("../../assets/fonts/universltstd-cn.ttf") format("truetype"), url("../../assets/fonts/universltstd-cn.svg#univers-57-Condensed") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-57-BoldCondensed";
-  src: url("../../assets/fonts/universltstd-boldcn.eot");
-  src: url("../../assets/fonts/universltstd-boldcn.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-boldcn.woff") format("woff"), url("../../assets/fonts/universltstd-boldcn.ttf") format("truetype"), url("../../assets/fonts/universltstd-boldcn.svg#univers-57-BoldCondensed") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "univers-67-BoldCondensed";
-  src: url("../../assets/fonts/universltstd-boldcn.eot");
-  src: url("../../assets/fonts/universltstd-boldcn.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/universltstd-boldcn.woff") format("woff"), url("../../assets/fonts/universltstd-boldcn.ttf") format("truetype"), url("../../assets/fonts/universltstd-boldcn.svg#univers-67-BoldCondensed") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
+/**
+ * Font Declarations
+ */
 /**
  * Header
  **/
