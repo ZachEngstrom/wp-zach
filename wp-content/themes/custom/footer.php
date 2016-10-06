@@ -19,8 +19,7 @@
 				</div>
 				<div class="col-sm-12">
 					<div class="copyright">
-						<p>&copy;<?php echo date('Y'); ?> Blue Cross and Blue Shield of Minnesota. All rights reserved.</p>
-						<p>Blue Cross<sup>&reg;</sup> and Blue Shield<sup>&reg;</sup> of Minnesota and Blue Plus<sup>&reg;</sup> are nonprofit independent licensees of the Blue Cross and Blue Shield Association.</p>
+						<p>&copy;<?php echo date('Y'); ?> Zach Engstrom. All rights reserved.</p>
 					</div>
 				</div>
 			</div>
