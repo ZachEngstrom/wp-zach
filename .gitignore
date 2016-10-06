@@ -21,3 +21,5 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 node_modules/**/*
 .sass-cache/**/*
+
+wp-content/mu-plugins/**/*
