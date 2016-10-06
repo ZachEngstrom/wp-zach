@@ -6,17 +6,7 @@ html {
 	min-height: 100%;
 }
 html, body {
-	color: $default_text;
 	font-family: sans-serif;
-	a {
-		color: $link_blue;
-		&:hover {
-			color: $link-hover_red;
-		}
-	}
-	p {
-		font-size: $std-text-size;
-	}
 }
 
 /**
@@ -134,7 +124,6 @@ h1,.h1 {
 	font-size: 4.2rem;
 	line-height: 4.4rem;
 	text-transform: uppercase;
-	color: $heading_blue;
 }
 
 h2,.h2 {
@@ -152,7 +141,6 @@ h3,.h3 {
 h4,.h4 {
 	font-size: 1.8rem;
 	font-family: sans-serif;
-	color: $heading_blue;
 	margin-bottom: 5px;
 }
 
@@ -179,10 +167,8 @@ section, .section {
 		position: relative;
 		li {
 			padding-left: 1.75rem;
-			font-size: $std-text-size;
 			&:before {
 				content: "\f0da";
-				color: $link_blue;
 				font-family: FontAwesome;
 				left: 1px;
 				position: absolute;

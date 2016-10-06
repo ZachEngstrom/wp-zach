@@ -9846,7 +9846,6 @@ nav.primary-nav div.navbar ul.nav > li.dropdown a {
 }
 nav.primary-nav div.navbar ul.nav > li.dropdown a:hover, nav.primary-nav div.navbar ul.nav > li.dropdown a:focus {
   background-color: transparent;
-  color: #06c;
 }
 nav.primary-nav div.navbar ul.nav > li.dropdown a i {
   position: absolute;
@@ -9939,17 +9938,7 @@ html {
 }
 
 html, body {
-  color: #222;
   font-family: sans-serif;
-}
-html a, body a {
-  color: #06c;
-}
-html a:hover, body a:hover {
-  color: #AA272F;
-}
-html p, body p {
-  font-size: 15px;
 }
 
 /**
@@ -10071,7 +10060,6 @@ h1, .h1 {
   font-size: 4.2rem;
   line-height: 4.4rem;
   text-transform: uppercase;
-  color: #005172;
 }
 
 h2, .h2 {
@@ -10089,7 +10077,6 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.8rem;
   font-family: sans-serif;
-  color: #005172;
   margin-bottom: 5px;
 }
 
@@ -10118,11 +10105,9 @@ section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination), .section ul:no
 }
 section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination) li, .section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination) li {
   padding-left: 1.75rem;
-  font-size: 15px;
 }
 section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination) li:before, .section ul:not(.breadcrumb):not(.list-unstyled):not(.pagination) li:before {
   content: "\f0da";
-  color: #06c;
   font-family: FontAwesome;
   left: 1px;
   position: absolute;
@@ -10312,7 +10297,7 @@ p.disclaimer {
  * Footer
  **/
 footer {
-  border-top: 3px solid #09C;
+  border-top: 3px solid gray;
   font-family: sans-serif;
   padding: 2rem 0;
   position: absolute;
